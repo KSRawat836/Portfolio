@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --mainTextColor: #ffffff;
+    --secondaryTextColor: #cccccc;
+    --mainLinkColor: #0da2b8;
+    --mainBorderColor: #444;
+    --mainBgColor: #000;
+}
+
+body {
+    background: url('backgroundimage.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--mainTextColor);
+    font-family: 'Readex Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px 10px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#hero p {
+    font-size: 1.2em;
+    color: var(--secondaryTextColor);
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: var(--mainLinkColor);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px var(--mainLinkColor);
+}
+
+section {
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.85);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--mainLinkColor);
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-container span {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--mainBorderColor);
+    font-size: 1em;
+    color: var(--mainTextColor);
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: var(--mainLinkColor);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px var(--mainLinkColor);
+}
+
+h3 a {
+    color: white;
+}
+
+h3 a:hover {
+    color: #0da2b8;
+}
+a {
+    color: white; /* Ensures all links are white */
+    text-decoration: none; /* Optional: Removes underline */
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #0da2b8; /* Keeps hover effect for a stylish touch */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        .project-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project-card {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .project-card img {
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .project-card img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="hero">
+            <h1>My Projects</h1>
+            <p>A showcase of my work and passion.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project1.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-card">
+            <p>Banking application made using C language and raylib file during FY Btech</p>
+            <h3><a href="https://github.com/KSRawat836/Banking-Karan.git">Source Code</a></h3>
+        </div>
+        <div class="project-gallery">
+            <div class="project-card">
+                <a href="assets/Login.png" target="_blank">
+                    <img src="assets/Login.png" alt="Banking Project Screenshot 1">
+                </a>
+                <p>Login Screen</p>
+            </div>
+            <div class="project-card">
+                <a href="assets/Dashboard.png" target="_blank">
+                    <img src="assets/Dashboard.png" alt="Banking Project Screenshot 2">
+                </a>
+                <p>Dashboard</p>
+            </div>
+            <div class="project-card">
+                <a href="assets/balance.png" target="_blank">
+                    <img src="assets/balance.png" alt="Banking Project Screenshot 3">
+                </a>
+                <p>Balance Page</p>
+            </div>
+            <div class="project-card">
+                <a href="assets/deposit.png" target="_blank">
+                    <img src="assets/deposit.png" alt="Banking Project Screenshot 4">
+                </a>
+                <p>Deposit Page</p>
+            </div>
+            <div class="project-card">
+                <a href="assets/withdraw.png" target="_blank">
+                    <img src="assets/withdraw.png" alt="Banking Project Screenshot 5">
+                </a>
+                <p>Withdraw Page</p>
+            </div>
+            <div class="project-card">
+                <a href="assets/transfer.png" target="_blank">
+                    <img src="assets/transfer.png" alt="Banking Project Screenshot 6">
+                </a>
+                <p>Transfer Page</p>
+            </div>
+            <div class="project-card">
+                <a href="assets/Log.png" target="_blank">
+                    <img src="assets/Log.png" alt="Banking Project Screenshot 7">
+                </a>
+                <p>Transaction Details Page</p>
+            </div>
+        </div>   
+    </section>
+    
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Email: karanrawat080306@gmail.com</p>
+        <p>Phone Number: 9152951991</p>
+        <p>Follow me on <a href="https://github.com/KSRawat836">GitHub</a> | <a href="https://www.linkedin.com/in/karan-rawat-a2a153334/">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
